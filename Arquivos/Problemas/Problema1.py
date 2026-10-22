@@ -19,7 +19,7 @@ print(tabela_medias)
 
 #Gráfico
 plt.style.use('classic')
-tabela_medias.plot(kind='bar',color=["yellowgreen", "beige"], edgecolor="black", linewidth=1, figsize=(8, 8))
+tabela_medias.plot(kind='bar',color=["hotpink", "beige"], edgecolor="black", linewidth=1, figsize=(8, 8))
 plt.title("Efeitos da ligação TNF", fontsize = 18)
 plt.ylabel("Titulo_y", fontsize = 14)
 plt.xlabel("Receptores", fontsize = 14)
